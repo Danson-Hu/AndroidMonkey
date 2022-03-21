@@ -73,7 +73,7 @@ function start_monkey() {
         log_capture;
     else
         echo_red "Monkey not running,try again..."
-        run_monkey;
+        start_monkey;
     fi
 }
 
